@@ -7,16 +7,16 @@ Cheers
 <br>
 # submitted
 ## Easy
-| id | Title | date submitted | solution |
+| ID | Title | Date Submitted | Solution |
 | ---- | -------------------- | ---------- | ------- |
 | 0001 | Two Sum | 2021/05/26 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/easy/0001-two-sum.js)
 | 0028 | Implement strStr() | 2021/05/26 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/easy/0028-implement-strStr.js)
 ## Medium
-| id | Title | date submitted | solution |
+| ID | Title | Date Submitted | Solution |
 | ---- | -------------------- | ---------- | ------- |
 | 0002 | Add Two Numbers | 2021/05/26 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/medium/0002-add-two-numbers.js)
 ## Hard
-| id | Title | date submitted | solution |
+| ID | Title | Date Submitted | Solution |
 | ---- | -------------------- | ---------- | ------- |
 | 0214 | Shortest Palindrome | 2021/05/26 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/hard/0214-shortest-palindrome.js)
 <br>
@@ -25,13 +25,13 @@ Cheers
 Date submitted only listed if answer was submitted
 
 ## Easy
-| id | Title | date submitted | solution |
+| ID | Title | Date Submitted | Solution |
 | ---- | -------------------- | ---------- | ------- |
 | 0007 | Reverse Integer | 2021/05/27 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/in-progress/accepted-but-improvable/0007-reverse-integer.js)
 | 0021 | Merge Two Sorted Lists | 2021/05/27 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/in-progress/accepted-but-improvable/0021-merge-two-sorted-lists.js)
 ## Medium
-| id | Title | date submitted | solution |
+| ID | Title | Date Submitted | Solution |
 | ---- | -------------------- | ---------- | ------- |
 ## Hard
-| id | Title | date submitted | solution |
+| ID | Title | Date Submitted | Solution |
 | ---- | -------------------- | ---------- | ------- |
