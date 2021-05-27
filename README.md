@@ -20,6 +20,7 @@ Cheers
 | ---- | -------------------- | ---------- | ------- |
 | 0214 | Shortest Palindrome | 2021/05/26 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/hard/0214-shortest-palindrome.js)
 <br>
+
 # in progress
 Date submitted only listed if answer was submitted
 
