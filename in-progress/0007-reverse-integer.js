@@ -2,18 +2,23 @@
 // potential solution: find new way to convert str to int
 // 
 const reverse = x => {
-  let neg = false;
-  if (Math.abs(x) < 10) {
+  if (`${x}`.length === 1) {
     return x
   }
-  if (x < 0) {
-    neg = true;
+  let inp = x % 10;
+  let pushStr = `${inp}`;
+  let truncated = parseInt(x / 10);
+  while (inp === 0) {
+    inp = truncated % 10;
+    pushStr += '0'
+    truncated = truncated / 10;
   }
-  const parse = parseInt((x % 10).toString() + reverse(parseInt(x / 10)))
-  if (neg) {
-    return -Math.abs(parse)
+
+
+  if (x < 0) {
+    return -Math.abs(parseInt(`${pushStr}${reverse(Math.abs(truncated))}`));
   } else {
-    return parse
+    return parseInt(`${pushStr}${Math.abs(reverse(truncated))}`);
   }
 }
 
