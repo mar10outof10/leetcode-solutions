@@ -37,3 +37,6 @@ Date submitted only listed if answer was submitted
 | ID | Title | Date Submitted | Solution |
 | ---- | -------------------- | ---------- | ------- |
 | 0042 | Trapping Rain Water | 2021 / 05 / 28 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/in-progress/accepted-but-improvable/0042-trapping-rain-water.js)
+
+### todo
+automate readme creation
