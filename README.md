@@ -19,7 +19,7 @@ Cheers
 ## Hard
 | ID | Title | Date Submitted | Solution |
 | ---- | -------------------- | ---------- | ------- |
-| 0042 | Trapping Rain Water | 2021 / 05 / 28 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/hard/0042-trapping-rain-water.js)
+| 0042 | Trapping Rain Water | 2021 / 05 / 29 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/hard/0042-trapping-rain-water.js)
 | 0214 | Shortest Palindrome | 2021 / 05 / 26 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/hard/0214-shortest-palindrome.js)
 <br>
 
