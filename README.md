@@ -19,10 +19,12 @@ Cheers
 ## Hard
 | ID | Title | Date Submitted | Solution |
 | ---- | -------------------- | ---------- | ------- |
+| 0042 | Trapping Rain Water | 2021 / 05 / 28 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/hard/0042-trapping-rain-water.js)
 | 0214 | Shortest Palindrome | 2021 / 05 / 26 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/hard/0214-shortest-palindrome.js)
 <br>
 
 # in progress
+includes submissions that were accepted as an answer but don't feel like quality answers
 Date submitted only listed if answer was submitted
 
 ## Easy
@@ -36,7 +38,7 @@ Date submitted only listed if answer was submitted
 ## Hard
 | ID | Title | Date Submitted | Solution |
 | ---- | -------------------- | ---------- | ------- |
-| 0042 | Trapping Rain Water | 2021 / 05 / 28 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/in-progress/accepted-but-improvable/0042-trapping-rain-water.js)
 
-### todoß
+
+### todo
 automate readme creation
