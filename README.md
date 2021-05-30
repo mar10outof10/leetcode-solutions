@@ -16,6 +16,7 @@ Cheers
 ## Medium
 | ID | Title | Date Submitted | Solution |
 | ---- | -------------------- | ---------- | ------- |
+| 0054 | Spiral Matrix | 2021 / 05 / 30 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/medium/0054-spiral-matrix.js)
 | 0002 | Add Two Numbers | 2021 / 05 / 26 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/medium/0002-add-two-numbers.js)
 ## Hard
 | ID | Title | Date Submitted | Solution |
