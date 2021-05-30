@@ -1,3 +1,12 @@
+// alternate lazy but effective
+const defangIPaddr = address => {
+  return address.split('.').join('[.]');
+}
+// accepted
+// 68ms 97.35%
+// 38.5mb 41.02%
+
+
 const defangIPaddr = address => {
   let res = '';
   for (const char of address) {

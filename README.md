@@ -9,6 +9,7 @@ Cheers
 ## Easy
 | ID | Title | Date Submitted | Solution |
 | ---- | -------------------- | ---------- | ------- |
+| 1108 | Defanging an IP Address | 2021 / 05 / 30 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/easy/1108-defanging-an-ip-address.js)
 | 1200 | Minimum Absolute Difference | 2021 / 05 / 28 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/easy/1200-minimum-absolute-difference.js)
 | 0028 | Implement strStr() | 2021 / 05 / 26 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/easy/0028-implement-strStr.js)
 | 0001 | Two Sum | 2021 / 05 / 26 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/easy/0001-two-sum.js)
