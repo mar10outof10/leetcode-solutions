@@ -16,6 +16,7 @@ Cheers
 ## Medium
 | ID | Title | Date Submitted | Solution |
 | ---- | -------------------- | ---------- | ------- |
+| [0200](https://leetcode.com/problems/number-of-islands/) | Number of Islands | 2021 / 05 / 31 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/medium/0200-number-of-islands.js)
 | [0054](https://leetcode.com/problems/spiral-matrix/) | Spiral Matrix | 2021 / 05 / 30 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/medium/0054-spiral-matrix.js)
 | [0002](https://leetcode.com/problems/add-two-numbers/) | Add Two Numbers | 2021 / 05 / 26 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/medium/0002-add-two-numbers.js)
 ## Hard
