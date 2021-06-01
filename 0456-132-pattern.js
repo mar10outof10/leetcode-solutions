@@ -3,19 +3,23 @@
  * @return {boolean}
  */
 const find132pattern = nums => {
-  const numsC = [...nums];
+  for (let i = 0; i < nums.length; i++) {
+    let one = nums[i];
+    let two;
 
-  for (i = 0; i < numsC.length; i++) {
-    let max
-    let one = numsC[i];
-    for (j = i + 1; j < numsC.length; j++) {
-      if (max === undefined || numsC[j] >= max) {
-        max = numsC[j];
-      } else if (numsC[j] > one) {
-        return true;
+    for (let j = nums.length - 1; j > i; j--) {
+      let val = nums[j];
+      if (val > one) {
+        if (two === undefined || val <= two) {
+          two = val;
+        } else {
+          return true;
+        }
       }
     }
+
   }
+
   return false;
 };
 
