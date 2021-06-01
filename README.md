@@ -9,6 +9,7 @@ Cheers
 ## Easy
 | ID | Title | Date Submitted | Solution |
 | ---- | -------------------- | ---------- | ------- |
+| [1037](https://leetcode.com/problems/valid-boomerang/) | Valid Boomerang | 2021 / 06 / 01 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/easy/1037-valid-boomerang.js)
 | [0989](https://leetcode.com/problems/add-to-array-form-of-integer/) | Add to Array-Form of Integer | 2021 / 06 / 01 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/easy/0989-add-to-array-form-of-integer.js)
 | [0605](https://leetcode.com/problems/can-place-flowers/) | Can Place Flowers | 2021 / 05 / 31 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/easy/0605-can-place-flowers.js)
 | [1108](https://leetcode.com/problems/defanging-an-ip-address/) | Defanging an IP Address | 2021 / 05 / 30 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/easy/1108-defanging-an-ip-address.js)
