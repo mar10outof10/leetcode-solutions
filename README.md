@@ -10,7 +10,7 @@ Cheers
 | ID | Title | Date Submitted | Solution |
 | ---- | -------------------- | ---------- | ------- |
 | [0263](https://leetcode.com/problems/ugly-number/) | Ugly Number | 2021 / 06 / 01 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/easy/1037-ugly-number.js)
-| [1037](https://leetcode.com/problems/valid-boomerang/) | Valid Boomerang | 2021 / 06 / 01 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/easy/1037-valid-boomerang.js)
+| [1037](https://leetcode.com/problems/valid-boomerang/) | Valid Boomerang | 2021 / 06 / 01 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/easy/1037-valid-boomerang.js)-w
 | [0989](https://leetcode.com/problems/add-to-array-form-of-integer/) | Add to Array-Form of Integer | 2021 / 06 / 01 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/easy/0989-add-to-array-form-of-integer.js)
 | [0605](https://leetcode.com/problems/can-place-flowers/) | Can Place Flowers | 2021 / 05 / 31 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/easy/0605-can-place-flowers.js)
 | [1108](https://leetcode.com/problems/defanging-an-ip-address/) | Defanging an IP Address | 2021 / 05 / 30 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/easy/1108-defanging-an-ip-address.js)
@@ -42,6 +42,7 @@ Date submitted only listed if answer was submitted
 ## Medium
 | ID | Title | Date Submitted | Solution |
 | ---- | -------------------- | ---------- | ------- |
+| [0365](https://leetcode.com/problems/water-and-jug-problem/) | Water and Jug Problem | 2021 / 06 / 02 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/in-progress/accepted-but-improvable/0007-water-and-jug-problem.js)
 ## Hard
 | ID | Title | Date Submitted | Solution |
 | ---- | -------------------- | ---------- | ------- |
