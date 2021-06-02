@@ -42,7 +42,7 @@ Date submitted only listed if answer was submitted
 ## Medium
 | ID | Title | Date Submitted | Solution |
 | ---- | -------------------- | ---------- | ------- |
-| [0365](https://leetcode.com/problems/water-and-jug-problem/) | Water and Jug Problem | 2021 / 06 / 02 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/in-progress/accepted-but-improvable/0007-water-and-jug-problem.js)
+| [0365](https://leetcode.com/problems/water-and-jug-problem/) | Water and Jug Problem | 2021 / 06 / 02 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/in-progress/accepted-but-improvable/0365-water-and-jug-problem.js)
 ## Hard
 | ID | Title | Date Submitted | Solution |
 | ---- | -------------------- | ---------- | ------- |
