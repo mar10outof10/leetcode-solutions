@@ -11,7 +11,7 @@ Cheers
 | ---- | -------------------- | ---------- | ------- |
 | [0067](https://leetcode.com/problems/add-binary/) | Add Binary | 2021 / 06 / 16 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/easy/0067-add-binary.js)
 | [0066](https://leetcode.com/problems/plus-one/) | Plus One | 2021 / 06 / 16 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/easy/0066-plus-one.js)
-| [0263](https://leetcode.com/problems/ugly-number/) | Ugly Number | 2021 / 06 / 01 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/easy/1037-ugly-number.js)
+| [0263](https://leetcode.com/problems/ugly-number/) | Ugly Number | 2021 / 06 / 01 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/easy/0263-ugly-number.js)
 | [1037](https://leetcode.com/problems/valid-boomerang/) | Valid Boomerang | 2021 / 06 / 01 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/easy/1037-valid-boomerang.js)-w
 | [0989](https://leetcode.com/problems/add-to-array-form-of-integer/) | Add to Array-Form of Integer | 2021 / 06 / 01 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/easy/0989-add-to-array-form-of-integer.js)
 | [0605](https://leetcode.com/problems/can-place-flowers/) | Can Place Flowers | 2021 / 05 / 31 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/easy/0605-can-place-flowers.js)
@@ -22,6 +22,7 @@ Cheers
 ## Medium
 | ID | Title | Date Submitted | Solution |
 | ---- | -------------------- | ---------- | ------- |
+| [0075](https://leetcode.com/problems/sort-colors/) | Sort Colors | 2021 / 06 / 16 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/medium/0075-sort-colors.js)
 | [0073](https://leetcode.com/problems/set-matrix-zeroes/) | Set Matrix Zeroes | 2021 / 06 / 16 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/medium/0073-set-matrix-zeroes.js)
 | [0200](https://leetcode.com/problems/number-of-islands/) | Number of Islands | 2021 / 05 / 31 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/medium/0200-number-of-islands.js)
 | [0054](https://leetcode.com/problems/spiral-matrix/) | Spiral Matrix | 2021 / 05 / 30 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/medium/0054-spiral-matrix.js)
