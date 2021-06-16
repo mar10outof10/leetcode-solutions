@@ -13,5 +13,3 @@ const sortColors = nums => {
     }
   }
 }
-
-console.log(sortColors([1,2,0]))
