@@ -9,6 +9,7 @@ Cheers
 ## Easy
 | ID | Title | Date Submitted | Solution |
 | ---- | -------------------- | ---------- | ------- |
+| [0066](https://leetcode.com/problems/plus-one/) | Ugly Number | 2021 / 06 / 16 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/easy/0066-plus-one.js)
 | [0263](https://leetcode.com/problems/ugly-number/) | Ugly Number | 2021 / 06 / 01 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/easy/1037-ugly-number.js)
 | [1037](https://leetcode.com/problems/valid-boomerang/) | Valid Boomerang | 2021 / 06 / 01 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/easy/1037-valid-boomerang.js)-w
 | [0989](https://leetcode.com/problems/add-to-array-form-of-integer/) | Add to Array-Form of Integer | 2021 / 06 / 01 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/easy/0989-add-to-array-form-of-integer.js)
