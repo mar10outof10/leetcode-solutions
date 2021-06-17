@@ -22,6 +22,7 @@ Cheers
 ## Medium
 | ID | Title | Date Submitted | Solution |
 | ---- | -------------------- | ---------- | ------- |
+| [0055](https://leetcode.com/problems/jump-game/) | Jump Game | 2021 / 06 / 17 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/medium/0055-jump-game.js)
 | [0116](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | Populating Next Right Pointers in Each Node | 2021 / 06 / 17 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/medium/0116-populating-next-right-pointers-in-each-node.js)
 | [0075](https://leetcode.com/problems/sort-colors/) | Sort Colors | 2021 / 06 / 16 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/medium/0075-sort-colors.js)
 | [0073](https://leetcode.com/problems/set-matrix-zeroes/) | Set Matrix Zeroes | 2021 / 06 / 16 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/medium/0073-set-matrix-zeroes.js)
