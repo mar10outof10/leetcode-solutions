@@ -9,6 +9,7 @@ Cheers
 ## Easy
 | ID | Title | Date Submitted | Solution |
 | ---- | -------------------- | ---------- | ------- |
+| [0112](https://leetcode.com/problems/path-sum/) | Path Sum | 2021 / 06 / 30 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/easy/0112-path-sum.js)
 | [0067](https://leetcode.com/problems/add-binary/) | Add Binary | 2021 / 06 / 16 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/easy/0067-add-binary.js)
 | [0066](https://leetcode.com/problems/plus-one/) | Plus One | 2021 / 06 / 16 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/easy/0066-plus-one.js)
 | [0263](https://leetcode.com/problems/ugly-number/) | Ugly Number | 2021 / 06 / 01 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/easy/0263-ugly-number.js)
