@@ -23,6 +23,7 @@ Cheers
 ## Medium
 | ID | Title | Date Submitted | Solution |
 | ---- | -------------------- | ---------- | ------- |
+| [0086](https://leetcode.com/problems/partition-list/) | Partition List | 2021 / 06 / 30 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/medium/0086-partition-list.js)
 | [0057](https://leetcode.com/problems/insert-interval/) | Insert Interval | 2021 / 06 / 18 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/medium/0057-insert-interval.js)
 | [0055](https://leetcode.com/problems/jump-game/) | Jump Game | 2021 / 06 / 17 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/medium/0055-jump-game.js)
 | [0116](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | Populating Next Right Pointers in Each Node | 2021 / 06 / 17 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/medium/0116-populating-next-right-pointers-in-each-node.js)
