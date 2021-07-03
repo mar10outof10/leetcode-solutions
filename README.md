@@ -48,6 +48,7 @@ Date submitted only listed if answer was submitted
 ## Easy
 | ID | Title | Date Submitted | Solution |
 | ---- | -------------------- | ---------- | ------- |
+| [0543](https://leetcode.com/problems/diameter-of-binary-tree/) | Diameter of Binary Tree | 2021 / 07 / 01 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/in-progress/accepted-but-improvable/0543-diameter-of-binary-tree.js)
 | [0021](https://leetcode.com/problems/merge-two-sorted-lists/) | Merge Two Sorted Lists | 2021 / 05 / 27 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/in-progress/accepted-but-improvable/0021-merge-two-sorted-lists.js)
 | [0007](https://leetcode.com/problems/reverse-integer/) | Reverse Integer | 2021 / 05 / 27 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/in-progress/accepted-but-improvable/0007-reverse-integer.js)
 ## Medium
