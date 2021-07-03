@@ -9,6 +9,7 @@ Cheers
 ## Easy
 | ID | Title | Date Submitted | Solution |
 | ---- | -------------------- | ---------- | ------- |
+| [0290](https://leetcode.com/problems/word-pattern/) | Word Pattern | 2021 / 07 / 03 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/easy/0290-word-pattern.js)
 | [0112](https://leetcode.com/problems/path-sum/) | Path Sum | 2021 / 06 / 30 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/easy/0112-path-sum.js)
 | [0067](https://leetcode.com/problems/add-binary/) | Add Binary | 2021 / 06 / 16 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/easy/0067-add-binary.js)
 | [0066](https://leetcode.com/problems/plus-one/) | Plus One | 2021 / 06 / 16 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/easy/0066-plus-one.js)
