@@ -60,6 +60,9 @@ Date submitted only listed if answer was submitted
 ## Medium
 | ID | Title | Date Submitted | Solution |
 | ---- | -------------------- | ---------- | ------- |
+| [0130](https://leetcode.com/problems/surrounded-regions/) | Surrounded Regions | 2021 / 07 / 29 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/in-progress/accepted-but-improvable/0130-surrounded-regions.js)
+| [0031](https://leetcode.com/problems/next-permutation/) | Next Permutation |  | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/in-progress/accepted-but-improvable/0031-next-permutation.js)
+| [0079](https://leetcode.com/problems/word-search/) | Word Search | 2021 / 07 / 22 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/in-progress/accepted-but-improvable/0079-word-search.js)
 | [0287](https://leetcode.com/problems/find-the-duplicate-number/) | Find the Duplicate Number | 2021 / 06 / 25 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/in-progress/accepted-but-improvable/0287-find-the-duplicate-number.js)
 | [0365](https://leetcode.com/problems/water-and-jug-problem/) | Water and Jug Problem | 2021 / 06 / 02 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/in-progress/accepted-but-improvable/0365-water-and-jug-problem.js)
 ## Hard
