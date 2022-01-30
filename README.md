@@ -26,7 +26,8 @@ Cheers
 ## Medium
 | ID | Title | Date Submitted | Solution |
 | ---- | -------------------- | ---------- | ------- |
-| [1291](https://leetcode.com/problems/sequential-digits/) | Generate Parentheses | 2022 / 01 / 30 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/medium/1291-sequential-digits.js)
+| [0229](https://leetcode.com/problems/majority-elements-ii/) | Majority Elements II | 2022 / 01 / 30 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/medium/0229-majority-elements-ii.js)
+| [1291](https://leetcode.com/problems/sequential-digits/) | Sequential Digits | 2022 / 01 / 30 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/medium/1291-sequential-digits.js)
 | [0022](https://leetcode.com/problems/generate-parentheses/) | Generate Parentheses | 2021 / 07 / 21 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/medium/0022-generate-parentheses.js)
 | [0019](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | Remove Nth Node From End of List | 2021 / 07 / 21 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/medium/0019-remove-nth-node-from-end-of-list.js)
 | [0238](https://leetcode.com/problems/product-of-array-except-self/) | Product of Array Except Self | 2021 / 07 / 03 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/medium/0238-product-of-array-except-self.js)
