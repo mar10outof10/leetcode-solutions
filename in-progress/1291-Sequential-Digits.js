@@ -1,60 +1,63 @@
+const findLowerBound = (low) => {
+  const lowString = low.toString();
+  let index = parseInt(lowString[0]);
+  let length = lowString.length;
 
-const sequentialDigits = (low, high) => {
-  let lowStr = low.toString();
-  lowIndex = parseInt(lowStr[0]);
-  let lowLength = lowStr.length;
+  let temp = null;
 
-  let lowCache = null;
-
-  for (let i = 0; i < lowLength; i++) {
-    if (lowCache && parseInt(lowStr[i]) > lowCache + 1) {
-      lowIndex = lowIndex + 1;
-      if (lowIndex > 10 - lowLength) {
-        lowIndex = 1;
-        lowLength++;
+  for (let i = 0; i < length; i++) {
+    if (temp && parseInt(lowString[i]) > temp + 1) {
+      index = index + 1;
+      if (index > 10 - length) {
+        index = 1;
+        length++;
       }
-      break
+      return [ index, length ];
     } else {
-      lowCache = parseInt(lowStr[i]);
+      temp = parseInt(lowString[i]);
     }
   }
 
-  let highStr = high.toString();
-  highIndex = parseInt(highStr[0]);
-  let highLength = highStr.length;
+  return [ index, length ];
+}
 
-  let highCache = null;
+const findUpperBound = (high) => {
+  const highStr = high.toString();
+  let index = parseInt(highStr[0]);
+  let length = highStr.length;
 
-  for (let i = 0; i < highLength; i++) {
-    if (highCache && parseInt(highStr[i]) > highCache + 1) {
-      highIndex = highIndex + 1;
-      if (highIndex > 10 - highLength) {
-        highIndex = 1;
-        highLength++;
+  let temp = null;
+
+  const incrementCheck = (index, length) => {
+    if (index > 10 - length) {
+      index = 11 - length;
+      return index;
+    };
+    return index;
+  }
+
+  for (let i = 0; i < length; i++) {
+    if (temp && parseInt(highStr[i]) > temp + 1) {
+      index = index + 1;
+      if (index > 10 - length) {
+        index = 1;
+        length++;
       }
-      break;
-    } else if (highCache && parseInt(highStr[i]) === highCache + 1) {
+      return [ incrementCheck(index, length), length ];
+    } else if (temp && parseInt(highStr[i]) === temp + 1) {
       continue;
-    } else if (highCache) {
-      break;
+    } else if (temp) {
+      return [ incrementCheck(index, length), length ];
     } else {
-      highCache = parseInt(highStr[i]);
+      temp = parseInt(highStr[i]);
     }
   }
+  return [ incrementCheck(index, length), length ];
+}
 
+const createSequentialDigitsArray = (lowIndex, lowLength, highIndex, highLength) => {
   const res = [];
-
-  console.log(lowIndex, lowLength);
-  console.log(highIndex, highLength);
   
-  if (lowLength >= 10) {
-    return [];
-  }
-  
-  if (highIndex > 10 - highLength) {
-    highIndex = 11 - highLength;
-  };
-
   for (let i = lowLength; i < highLength; i++) {
     while (lowIndex <= 10 - i) {
       let sequence = '';
@@ -77,6 +80,19 @@ const sequentialDigits = (low, high) => {
   }
 
   return res;
+}
+
+const sequentialDigits = (low, high) => {
+  const res = [];
+
+  let [lowIndex, lowLength] = findLowerBound(low);
+  let [highIndex, highLength] = findUpperBound(high);
+  
+  if (lowLength >= 10) {
+    return [];
+  }
+
+  return createSequentialDigitsArray(lowIndex, lowLength, highIndex, highLength);
 };
 
 console.log(sequentialDigits(100,300)) // [123,234]
