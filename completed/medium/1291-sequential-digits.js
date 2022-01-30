@@ -83,8 +83,6 @@ const createSequentialDigitsArray = (lowIndex, lowLength, highIndex, highLength)
 }
 
 const sequentialDigits = (low, high) => {
-  const res = [];
-
   let [lowIndex, lowLength] = findLowerBound(low);
   let [highIndex, highLength] = findUpperBound(high);
   
@@ -95,11 +93,10 @@ const sequentialDigits = (low, high) => {
   return createSequentialDigitsArray(lowIndex, lowLength, highIndex, highLength);
 };
 
-console.log(sequentialDigits(100,300)) // [123,234]
-console.log(sequentialDigits(1000,13000)) // [1234,2345,3456,4567,5678,6789,12345]
-console.log(sequentialDigits(234,2314)) // 234,345,456,567,678,789,1234]
-console.log(sequentialDigits(3770,12427)) // [4567,5678,6789,12345]
-
-console.log(sequentialDigits(178546104, 812704742)) // [];
-
-console.log(sequentialDigits(31365477, 514800930)) // [123456789];
+// test cases
+// console.log(sequentialDigits(100,300)) // [123,234]
+// console.log(sequentialDigits(1000,13000)) // [1234,2345,3456,4567,5678,6789,12345]
+// console.log(sequentialDigits(234,2314)) // 234,345,456,567,678,789,1234]
+// console.log(sequentialDigits(3770,12427)) // [4567,5678,6789,12345]
+// console.log(sequentialDigits(178546104, 812704742)) // [];
+// console.log(sequentialDigits(31365477, 514800930)) // [123456789];
