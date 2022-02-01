@@ -5,26 +5,20 @@
  */
 const findNumOfValidWords = (words, puzzles) => {
 
-  const createSets = (string) => (new Set(string))
+  const createSet = (string) => (new Set(string))
 
-  const wordSetArr = words.map(createSets);
+  const wordSetArr = words.map(createSet);
   const wordArr = wordSetArr.map((set) => Array.from(set));
   const wordsLength = words.length;
 
-
-  let currentWord = null;
-
-  const puzzleSetArr = puzzles.map(createSets);
+  const puzzleSetArr = puzzles.map(createSet);
   const puzzlesLength = puzzles.length;
   let firstLetter = null;
   let puzzleSet = null;
 
   let numOfValidWords = [];
 
-  let bool = null;
-
-  let temp = null;
-
+  let validWord = null;
 
   for (let i = 0; i < puzzlesLength; i++) {
     numOfValidWords.push(0);
@@ -33,26 +27,26 @@ const findNumOfValidWords = (words, puzzles) => {
     puzzleSet = puzzleSetArr[i];
 
     for (let j = 0; j < wordsLength; j++) {
-      bool = true;
+      validWord = true;
 
       if (!(wordSetArr[j].has(firstLetter)) || wordSetArr[j].length > puzzleSet.length) {
         continue;
       }
+      
       for (const letter of wordArr[j]) {
         if (!(puzzleSet.has(letter))) {
-          bool = false;
+          validWord = false;
           break;
         }
       }
 
-      if (bool) {
+      if (validWord) {
         numOfValidWords[i]++;
       }
     }
   }
 
   return numOfValidWords;
-
 }
 
 // const findNumOfValidWords = (words, puzzles) => {
