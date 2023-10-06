@@ -51,6 +51,8 @@ Cheers
 <br>
 
 # in progress
+| [0001](https://leetcode.com/problems/two-sum/) | Two Sum | 2023 / 10 / 06 | [/]
+
 includes submissions that were accepted as an answer but don't feel like quality answers
 Date submitted only listed if answer was submitted
 
