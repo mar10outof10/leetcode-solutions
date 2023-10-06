@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mar10outof10/leetcode-solutions/issues"
   },
-  "homepage": "https://github.com/mar10outof10/leetcode-solutions#readme"
+  "homepage": "https://github.com/mar10outof10/leetcode-solutions#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
