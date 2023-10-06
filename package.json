@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Hello, this repo contains all my answers to questions listed in leetcode. They're organized first by completed and in progress. Completed problems are organized by posted difficulty while in progress answers are sorted depending on whether a solution was submitted but I want to improve on it or if I have no answer whatsoever yet but still want to push my progress.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
