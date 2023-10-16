@@ -17,8 +17,16 @@ const minRemoveToMakeValid = inputString => {
 
 const solutions = [
   {
-    "inputString": '',
-    "answer": '', 
+    "inputString": 'lee(t(c)o)de)',
+    "answers": ['lee(t(c)o)de', 'lee(t(co)de)', 'lee(t(c)ode'], 
+  },
+  {
+    "inputString": 'a)b(c)d',
+    "answers": ['ab(c)d'], 
+  },
+  {
+    "inputString": '))((',
+    "answers": [''], 
   },
 ];
 
