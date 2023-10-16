@@ -7,7 +7,7 @@ const { isEqual, sortBy } = lodash;
  * @param {Function} testFunction 
  * @param {Array} solutions 
 */
-const testSolutionStrict = (testFunction, solutions) => {
+const testSolutionsStrict = (testFunction, solutions) => {
 
   let success = true;
 
@@ -35,7 +35,7 @@ const testSolutionStrict = (testFunction, solutions) => {
  * @param {Function} testFunction 
  * @param {Array} solutions 
 */
-const testSolutionUnorderedArray = (testFunction, solutions) => {
+const testSolutionsUnorderedArray = (testFunction, solutions) => {
 
   let success = true;
 
@@ -45,9 +45,9 @@ const testSolutionUnorderedArray = (testFunction, solutions) => {
     const testAnswer = testFunction(...Object.values(params));
 
     if (isEqual(sortBy(answer), sortBy(testAnswer))) {
-      console.log(`\n \u2705 The correct answer, ${testAnswer}, is returned by the provided function.`);
+      console.log(`\n \u2705 The correct array contents, ${testAnswer}, are returned by the provided function.`);
     } else {
-      console.log(`\n \u274C The correct answer, ${answer}, is not returned by the provided function.\n    The function returns, ${testAnswer}.`);
+      console.log(`\n \u274C The correct array contents, ${answer}, are not returned by the provided function.\n    The function returns, ${testAnswer}.`);
       success = false;
     }
   };
@@ -57,4 +57,4 @@ const testSolutionUnorderedArray = (testFunction, solutions) => {
   return null;
 };
 
-export { testSolutionStrict, testSolutionUnorderedArray };
+export { testSolutionsStrict, testSolutionsUnorderedArray };
