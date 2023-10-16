@@ -8,21 +8,22 @@ const { isEqual } = lodash;
 */
 const testSolution = (testFunction, solutions) => {
 
+  let success = true;
+
   for (const solution of solutions) {
+
     const { answer, ...params } = solution;
     const testAnswer = testFunction({...params});
 
     if (isEqual(answer, testAnswer)) {
-      console.log(`
-        The correct value, ${answer}, is properly returned by the provided function.
-      `)
+      console.log(`\n \u2705 The correct value, ${answer}, is returned by the provided function.`);
     } else {
-      console.log(`
-        The correct value, ${answer}, is not returned by the provided function.
-        The function returns, ${testAnswer}, instead.
-      `)
+      console.log(`\n \u274C The correct value, ${answer}, is not returned by the provided function.\n    The function returns, ${testAnswer}, instead.`);
+      success = false;
     }
-  }
+  };
+
+  console.log(`\n ${success ? `\u{1F600}` : `\u{1F621}` } Unit tests ${success ? `sucessful` : `failed`}\n`);
 
   return null;
 };
