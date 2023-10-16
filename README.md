@@ -9,6 +9,7 @@ Cheers
 ## Easy
 | ID | Title | Date Submitted | Solution |
 | ---- | -------------------- | ---------- | ------- |
+| [0001](https://leetcode.com/problems/two-sum/) | Two Sum (2) | 2023 / 10 / 16 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/easy/0001-two-sum-2.js)
 | [0020](https://leetcode.com/problems/valid-parentheses/) | Valid Parentheses | 2021 / 07 / 18 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/easy/0020-valid-parentheses.js)
 | [0046](https://leetcode.com/problems/permutations/) | Permutations | 2021 / 07 / 05 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/easy/0046-permutations.js)
 | [0290](https://leetcode.com/problems/word-pattern/) | Word Pattern | 2021 / 07 / 03 | [click!](https://github.com/mar10outof10/leetcode-solutions/blob/main/completed/easy/0290-word-pattern.js)
