@@ -13,7 +13,7 @@ const testSolution = (testFunction, solutions) => {
   for (const solution of solutions) {
 
     const { answer, ...params } = solution;
-    const testAnswer = testFunction({...params});
+    const testAnswer = testFunction(...Object.values(params));
 
     if (isEqual(answer, testAnswer)) {
       console.log(`\n \u2705 The correct value, ${answer}, is returned by the provided function.`);
