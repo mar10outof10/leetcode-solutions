@@ -9,6 +9,20 @@ You can return the answer in any order.
 */
 
 const twoSum =  (nums, target) => {
+
+  const len = nums.length;
+
+  for (let i = 0; i < len; i++) {
+
+    let addend = target - nums[i];
+    let addendIndex = nums.slice(i + 1).indexOf(addend);
+    
+    if (addendIndex != -1) {
+      return [i, addendIndex + i + 1];
+    }
+  
+  }
+
   return null;
 };
 
