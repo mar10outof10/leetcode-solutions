@@ -1,4 +1,4 @@
-import { testSolutionsStrict } from "#testing/testFunctions.js"
+import { testMultipleSolutionsStrict } from "#testing/testFunctions.js"
 
 /*
 Given a string s of '(' , ')' and lowercase English characters.
@@ -30,4 +30,4 @@ const solutions = [
   },
 ];
 
-testSolutionsStrict(minRemoveToMakeValid, solutions);
+testMultipleSolutionsStrict(minRemoveToMakeValid, solutions);
