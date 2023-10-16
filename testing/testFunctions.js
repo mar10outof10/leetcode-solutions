@@ -45,9 +45,9 @@ const testMultipleSolutionsStrict = (testFunction, solutions) =>{
     const testAnswer = testFunction(...Object.values(params));
 
     if (answers.includes(testAnswer)) {
-      console.log(`\n \u2705 A correct answer, ${answers}, is returned by the provided function.`);
+      console.log(`\n \u2705 A correct answer, '${testAnswer}', is returned by the provided function.`);
     } else {
-      console.log(`\n \u274C A correct answer is not returned by the provided function.\n    The function returns, ${testAnswer}.\n   The correct answer(s) are '${[...answers].join(`' | '`)}'`);
+      console.log(`\n \u274C A correct answer is not returned by the provided function.\n    The function returns, '${testAnswer}'.\n   The correct answer(s) are '${[...answers].join(`' | '`)}'`);
       success = false;
     }
   };
