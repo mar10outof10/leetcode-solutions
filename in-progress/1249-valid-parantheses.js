@@ -12,7 +12,48 @@ It can be written as (A), where A is a valid string.
 */
 
 const minRemoveToMakeValid = inputString => {
-    return null;
+  let validCount = 0; // counter for valid pairs of parentheses in final string
+  let openCount = 0; // counter for open parentheses
+
+  for (const char of inputString) {
+    switch (char) {
+      case '(':
+        openCount++;
+        break;
+      case ')':
+        if (openCount) {
+          validCount++;
+          openCount--;
+        }
+        break;
+      default:
+    }
+  }
+
+  let res = '';
+  let currentOpen = 0; // counter for open parentheses for second iteration
+
+  for (const char of inputString) {
+    switch (char) {
+      case '(':
+        if (validCount) {
+          res += '(';
+          currentOpen++;
+          validCount--;
+        }
+        break;
+      case ')':
+        if (currentOpen) {
+          res += ')';
+          currentOpen--;
+        }
+        break;
+      default:
+        res += char;
+    }
+  }
+
+  return res;
 };
 
 const solutions = [
@@ -27,6 +68,10 @@ const solutions = [
   {
     "inputString": '))((',
     "answers": [''], 
+  },
+  {
+    "inputString": '())()(((',
+    "answers": ['()()'], 
   },
 ];
 
